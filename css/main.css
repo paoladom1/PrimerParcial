@@ -346,6 +346,10 @@ footer .social-links {
         margin-bottom: 90px;
     }
 
+    .post ul li article{
+        border-radius: 7px;
+    }
+
     .post h2 {
         font-size: 1.3rem;
         font-weight: bolder;
@@ -357,9 +361,23 @@ footer .social-links {
     }
 
     .post article h3 {
+        margin-top: 0.7rem;
+        margin-bottom: 0;
         font-weight: bolder;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         text-align: justify;
+    }
+
+    .post article p {
+        color: black;
+        font-size: 0.7rem;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    .post article h3, .post article p {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 
