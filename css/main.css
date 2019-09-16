@@ -20,7 +20,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .src-only {
@@ -308,9 +308,62 @@ footer .social-links {
 } 
 
 @media only screen and (min-width: 1024px) {
+    /*TODO: FALTA CSS */
+    .container {
+        width: 94%;
+        margin: 0 auto;
+    }
 
-       /*TODO: FALTA CSS */
+    .header {
+        padding: 0 48px;
+    }
 
+    .menu li a {
+        font-size: 1.2rem;
+    }
+
+    .menu li:last-child a {
+        color: #f74442;
+    }
+
+    .big-hero p {
+        font-size: 1rem;
+    }
+
+    .social-links {
+        margin-top: -18px;
+    }
+
+    .fab {
+        font-size: 6rem;
+        margin: auto 20px;
+    }
+
+    .fas {
+        font-size: 4.5rem;
+        color: #0ac693;
+        margin-top: 20px;
+        margin-bottom: 90px;
+    }
+
+    .post h2 {
+        font-size: 1.3rem;
+        font-weight: bolder;
+    }
+
+    article {
+        width: 82%;
+        margin: auto;
+    }
+
+    .post article h3 {
+        font-weight: bolder;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+
+
+    
 
 
 }
@@ -319,7 +372,7 @@ footer .social-links {
 
     /*TODO: FALTA CSS */
     .container {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         max-width: 1440px;
     }
