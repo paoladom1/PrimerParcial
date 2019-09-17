@@ -76,9 +76,10 @@ p{
 }
 
 .big-hero p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: #D7DEE6;
     margin-top: -10px;
+    margin-bottom: 40px;
     font-weight: 500;
 
 }
@@ -87,20 +88,22 @@ p{
 .social-links{
     list-style: none;
     padding: 0;
-    margin-top: 3em;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: -50px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 
 }
 
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
-    font-size: 6rem;
     margin: auto 10px;
+}
+
+.fab {
+    font-size: 4rem;
 }
 
 
@@ -167,6 +170,7 @@ p{
 
 .about{
     margin-top: 2em;
+    margin-bottom: 3em;
 }
 
 .about h2 {
@@ -192,8 +196,7 @@ p{
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 0px 3em;
-    padding-bottom: 50px;
+    padding: 0px 2em;
 }
 
 .contact * + * {
@@ -239,10 +242,20 @@ p{
 footer{
     background-color: #0D5061;
     color:#D7DEE6;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 footer .social-links {
-    margin: 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+footer p {
+    margin-top: 4px;
+    padding-top: 0;
+    padding-bottom: 20px;
 }
 
 .menu {
