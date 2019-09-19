@@ -248,9 +248,8 @@ p{
 footer{
     background-color: #0D5061;
     color:#D7DEE6;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    display: inline-block;
+    width: 100%;
 }
 
 footer .social-links {
@@ -293,7 +292,42 @@ footer p {
 
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
-  
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .header img {
+        padding: 12px;
+    }
+
+    .menu li a {
+        font-size: 1rem;
+    }
+
+    .menu li a:hover {
+        color: #f74442;
+    }
+
+    .big-hero p {
+        font-size: 0.95rem;
+    }
+
+    .big-hero .social-links {
+        margin-bottom: 30px;
+    }
+
+    .social-links li a {
+        margin: auto 18px;
+    }
+
+    .fas {
+        font-size: 3rem;
+        color: #0ac693;
+        margin-top: 0;
+        margin-bottom: 90px;
+    }
+
     .post ul {
         list-style: none;
         display: flex;
@@ -304,8 +338,12 @@ footer p {
     .post ul li {
         min-height: 350px;
         max-height: 3500px;
-        margin: 1rem 2rem;
+        margin: 1rem 1rem;
         flex: 1 0 300px;
+    }
+
+    article {
+        width: 260px;
     }
 
 
