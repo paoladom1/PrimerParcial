@@ -318,7 +318,7 @@ footer p {
     }
 
     .social-links li a {
-        margin: auto 18px;
+        margin: auto 10px;
     }
 
     .fas {
@@ -338,14 +338,13 @@ footer p {
     .post ul li {
         min-height: 350px;
         max-height: 3500px;
-        margin: 1rem 1rem;
+        margin: 1rem 2rem;
         flex: 1 0 300px;
     }
 
     article {
-        width: 260px;
+        width: 300px;
     }
-
 
     .logo {
         width: 150px;
