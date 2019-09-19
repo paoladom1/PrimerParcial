@@ -152,7 +152,7 @@ p{
     margin-top: 1em;
     padding: 0em 1rem;
     font-size: 0.9em;
-    white-space: nowrap;
+    white-space: pre-wrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -208,12 +208,17 @@ p{
     flex-direction: column;
 }
 
+.contact label {
+    font-weight: 700;
+}
+
 .contact-form input, .contact-form textarea{
     padding: 1rem 2rem;
     border: none;
     border-radius: 0px 2em;
     font-size: 1em;
     width: 100%;
+    margin-top: 12px;
 }
 
 /* Decorando placeholder */
@@ -229,6 +234,7 @@ p{
 :-ms-input-placeholder { color: #D7DEE6; }
 
 .contact-form input[type=submit] {
+    margin-top: 25px;
     background-color: #F74442;
     font-weight: 400;
     color: white;
@@ -337,7 +343,7 @@ footer p {
 @media only screen and (min-width: 1024px) {
     /*TODO: FALTA CSS */
     .container {
-        width: 94%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -349,7 +355,7 @@ footer p {
         font-size: 1.2rem;
     }
 
-    .menu li:last-child a {
+    .menu li a:hover {
         color: #f74442;
     }
 
@@ -381,14 +387,18 @@ footer p {
         margin-bottom: 90px;
     }
 
-    .post ul li article{
-        border-radius: 6px;
+    .post ul {
+        display: flex;
+        justify-content: flex-start;
+        flex-flow: row wrap;
+        padding-bottom: 16px;
+        
     }
 
     .post ul li {
-        min-height: 327px;
+        min-height: 330px;
         max-height: 3500px;
-        margin: 1rem 2rem;
+        margin: 1rem auto;
         flex: 1 0 300px;
     }
 
@@ -398,8 +408,10 @@ footer p {
     }
 
     article {
-        width: 82%;
+        width: 260px;
+        min-height: 337.11px;
         margin: auto;
+        border-radius: 6px;
     }
 
     .post article h3 {
