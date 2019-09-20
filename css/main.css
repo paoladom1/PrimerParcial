@@ -10,6 +10,9 @@
 }
 
 /* El estilo base para moviles */
+
+/*Asigna valores por defecto: fondo y propiedades de la fuente*/
+
 body {
     background-color: #112935;
     color: white;
@@ -18,22 +21,33 @@ body {
     font-weight: 400;
 }
 
+/*Aplica padding por defecto a todos los hijos directos de body para que
+ todo el contenido este centrado de igual manera*/
+
 body > * {
     padding: 0 16px;
 }
+
+/*Muestra los elementos de tal manera que el espacio entre ellos sea el mismo*/
 
 .header {
     display: flex;
     justify-content: space-between;
 }
 
+/*Evita que se muestre el h1*/
+
 .src-only {
     display: none;
 }
 
+/*Evita que se despliegue el menu en moviles*/
+
 .hide-mobile {
     display: none;
 }
+
+/*Asigna valores por defecto a la etiqueta parrafo*/
 
 p{
     font-size: 0.75em;
@@ -41,10 +55,14 @@ p{
     line-height: 25px;
 }
 
+/*Asigna un tamaño al logo*/
+
 .logo {
     width: 90px;
     margin: 1em;
 }
+
+/*Asigna propiedades al menu desplegable en moviles*/
 
 .options {
     color: inherit;
@@ -64,9 +82,13 @@ p{
 }
 
 /* Big area */
+
+/*Asigna un tamaño a la imagen*/
 .big-hero img {
     width: 150px;
 }
+
+/*Asigna valores por defecto a las etiquetas h2 y parrafo*/
 
 .big-hero h2 {
     font-size: 1.875em;
@@ -81,10 +103,12 @@ p{
     margin-top: -10px;
     margin-bottom: 40px;
     font-weight: 500;
-
 }
 
 /* Social links*/
+
+/*Aplica valores iniciales a los iconos de redes sociales*/
+
 .social-links{
     list-style: none;
     padding: 0;
@@ -102,20 +126,25 @@ p{
     margin: auto 10px;
 }
 
+/*Asigna un tamaño a los iconos de redes sociales*/
+
 .fab {
     font-size: 4rem;
 }
 
+/*Asigna un color de fondo a la seccion de publicaciones*/
 
 .green-area {
     background-color: #0AC693; 
 }
 
+/*Asigna valores por defecto a la seccion de publicaciones*/
 
 .post {
     padding: 0.6em;
     margin-bottom: -2px;
 }
+
 .post h2 {
     text-transform: uppercase;
     font-weight: 700;
@@ -123,15 +152,21 @@ p{
     margin: 1em;
 }
 
+/*Elimina el estilo de lista*/
+
 .post ul {
     list-style: none;
 }
+
+/*Define el tamaño de cada publicacion*/
 
 .post ul li {
     min-height: 300px;
     max-width: 300px;
     margin: 2rem auto;
 }
+
+/*Define el estilo de cada articulo*/
 
 .post ul li article {
     overflow: hidden;
@@ -141,11 +176,16 @@ p{
     padding-bottom: 2em;
 }
 
+/*Asigna el tamaño de la imagen de cada publicacion y especifica la manera en que 
+se debe adaptar a su contenedor*/
+
 .post article img{
     height: 150px;
     width: 100%;
     object-fit: cover;
 }
+
+/*Asigna valores por defecto a la etiqueta h3 de cada publicacion*/
 
 .post article h3 {
     color: #0D5061;
@@ -156,6 +196,8 @@ p{
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+/*Asigna valores por defecto a la etiqueta parrafo de cada publicacion*/
 
 .post article p {
     color:#112935;
@@ -168,10 +210,14 @@ p{
 
 /* About */
 
+/*Aplica margenes a la seccion Acerca de*/
+
 .about{
     margin-top: 2em;
     margin-bottom: 3em;
 }
+
+/*Define propiedades para la etiqueta h2 de la seccion acerca de*/
 
 .about h2 {
     text-transform: uppercase;
@@ -180,9 +226,13 @@ p{
     margin: 2em;
 }
 
+/*Define el tamaño de la imagen en la seccion acerca de (logo blanco)*/
+
 .bio-info img{
     width: 150px;
  }
+
+ /*Asigna valores por defecto a la etiqueta parrafo en la seccion acerca de*/
  
  .bio-info p{
      font-size: 16px;
@@ -192,6 +242,8 @@ p{
      letter-spacing: 0;
  }
 
+/*Define de que manera se muestra el contenedor de la seccion de contacto*/
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -199,18 +251,27 @@ p{
     padding: 0px 2em;
 }
 
+/*Asigna margen superior a todo lo que este ubicado inmediatamente
+despues de un hijo directo de .contact*/
+
 .contact * + * {
     margin-top: 1.5em;
 }
+
+/*Define de que manera se muestra el formulario de contacto*/
 
 .contact-form {
     display: flex;
     flex-direction: column;
 }
 
+/*Aplica un peso a la fuente de cada label del formulario*/
+
 .contact label {
     font-weight: 700;
 }
+
+/*Define el estilo de los inputs del formulario*/
 
 .contact-form input, .contact-form textarea{
     padding: 1rem 2rem;
@@ -233,6 +294,8 @@ p{
  
 :-ms-input-placeholder { color: #D7DEE6; }
 
+/*Asiga un estilo al boton*/
+
 .contact-form input[type=submit] {
     margin-top: 25px;
     background-color: #F74442;
@@ -241,9 +304,6 @@ p{
     font-size: 1rem;
 }
 
-.black-decoration{
-    background-image: url("../images/decoracion_oscura_small.svg");
-}
 
 footer{
     background-color: #0D5061;
