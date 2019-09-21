@@ -11,7 +11,7 @@
 
 /* El estilo base para moviles */
 
-/*Asigna valores por defecto: fondo y propiedades de la fuente*/
+/* Asigna valores por defecto: fondo y propiedades de la fuente */
 
 body {
     background-color: #112935;
@@ -21,33 +21,33 @@ body {
     font-weight: 400;
 }
 
-/*Aplica padding por defecto a todos los hijos directos de body para que
- todo el contenido este centrado de igual manera*/
+/* Aplica padding por defecto a todos los hijos directos de body para que
+ todo el contenido este centrado de igual manera */
 
 body > * {
     padding: 0 16px;
 }
 
-/*Muestra los elementos de tal manera que el espacio entre ellos sea el mismo*/
+/* Muestra los elementos de tal manera que el espacio entre ellos sea el mismo */
 
 .header {
     display: flex;
     justify-content: space-between;
 }
 
-/*Evita que se muestre el h1*/
+/* Evita que se muestre el h1 */
 
 .src-only {
     display: none;
 }
 
-/*Evita que se despliegue el menu en moviles*/
+/* Evita que se despliegue el menu en moviles */
 
 .hide-mobile {
     display: none;
 }
 
-/*Asigna valores por defecto a la etiqueta parrafo*/
+/* valores por defecto a la etiqueta parrafo */
 
 p{
     font-size: 0.75em;
@@ -55,14 +55,14 @@ p{
     line-height: 25px;
 }
 
-/*Asigna un tamaño al logo*/
+/* tamaño de logo*/
 
 .logo {
     width: 90px;
     margin: 1em;
 }
 
-/*Asigna propiedades al menu desplegable en moviles*/
+/* propiedades de menu desplegable en moviles */
 
 .options {
     color: inherit;
@@ -83,12 +83,12 @@ p{
 
 /* Big area */
 
-/*Asigna un tamaño a la imagen*/
+/* tamaño a la imagen */
 .big-hero img {
     width: 150px;
 }
 
-/*Asigna valores por defecto a las etiquetas h2 y parrafo*/
+/* valores por defecto de las etiquetas h2 y parrafo */
 
 .big-hero h2 {
     font-size: 1.875em;
@@ -107,7 +107,7 @@ p{
 
 /* Social links*/
 
-/*Aplica valores iniciales a los iconos de redes sociales*/
+/* valores iniciales para la lista de iconos de redes sociales */
 
 .social-links{
     list-style: none;
@@ -120,25 +120,27 @@ p{
 
 }
 
+/* valores iniciales de los enlaces de iconos sociales */
+
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
     margin: auto 10px;
 }
 
-/*Asigna un tamaño a los iconos de redes sociales*/
+/* tamaño de los iconos de redes sociales */
 
 .fab {
     font-size: 4rem;
 }
 
-/*Asigna un color de fondo a la seccion de publicaciones*/
+/* color de fondo a la seccion de publicaciones */
 
 .green-area {
     background-color: #0AC693; 
 }
 
-/*Asigna valores por defecto a la seccion de publicaciones*/
+/* valores por defecto a la seccion de publicaciones */
 
 .post {
     padding: 0.6em;
@@ -152,13 +154,13 @@ p{
     margin: 1em;
 }
 
-/*Elimina el estilo de lista*/
+/* Elimina el estilo de lista */
 
 .post ul {
     list-style: none;
 }
 
-/*Define el tamaño de cada publicacion*/
+/* tamaño de cada publicacion */
 
 .post ul li {
     min-height: 300px;
@@ -166,7 +168,7 @@ p{
     margin: 2rem auto;
 }
 
-/*Define el estilo de cada articulo*/
+/* estilo de cada articulo */
 
 .post ul li article {
     overflow: hidden;
@@ -176,8 +178,8 @@ p{
     padding-bottom: 2em;
 }
 
-/*Asigna el tamaño de la imagen de cada publicacion y especifica la manera en que 
-se debe adaptar a su contenedor*/
+/* Asigna el tamaño de la imagen de cada publicacion y especifica la manera en que 
+se debe adaptar a su contenedor */
 
 .post article img{
     height: 150px;
@@ -185,7 +187,7 @@ se debe adaptar a su contenedor*/
     object-fit: cover;
 }
 
-/*Asigna valores por defecto a la etiqueta h3 de cada publicacion*/
+/* valores por defecto a la etiqueta h3 de cada publicacion */
 
 .post article h3 {
     color: #0D5061;
@@ -197,7 +199,7 @@ se debe adaptar a su contenedor*/
     text-overflow: ellipsis;
 }
 
-/*Asigna valores por defecto a la etiqueta parrafo de cada publicacion*/
+/* valores por defecto a la etiqueta parrafo de cada publicacion */
 
 .post article p {
     color:#112935;
@@ -210,14 +212,14 @@ se debe adaptar a su contenedor*/
 
 /* About */
 
-/*Aplica margenes a la seccion Acerca de*/
+/* Aplica margenes a la seccion Acerca de */
 
 .about{
     margin-top: 2em;
     margin-bottom: 3em;
 }
 
-/*Define propiedades para la etiqueta h2 de la seccion acerca de*/
+/* propiedades para la etiqueta h2 de la seccion acerca de */
 
 .about h2 {
     text-transform: uppercase;
@@ -226,13 +228,13 @@ se debe adaptar a su contenedor*/
     margin: 2em;
 }
 
-/*Define el tamaño de la imagen en la seccion acerca de (logo blanco)*/
+/* tamaño de la imagen en la seccion acerca de (logo blanco) */
 
 .bio-info img{
     width: 150px;
  }
 
- /*Asigna valores por defecto a la etiqueta parrafo en la seccion acerca de*/
+ /* valores por defecto a la etiqueta parrafo en la seccion acerca de */
  
  .bio-info p{
      font-size: 16px;
@@ -242,7 +244,7 @@ se debe adaptar a su contenedor*/
      letter-spacing: 0;
  }
 
-/*Define de que manera se muestra el contenedor de la seccion de contacto*/
+/* manera en que se muestra el contenedor de la seccion de contacto */
 
 .contact {
     display: flex;
@@ -251,27 +253,27 @@ se debe adaptar a su contenedor*/
     padding: 0px 2em;
 }
 
-/*Asigna margen superior a todo lo que este ubicado inmediatamente
-despues de un hijo directo de .contact*/
+/* Asigna margen superior a todo lo que este ubicado inmediatamente
+despues de un hijo directo de .contact */
 
 .contact * + * {
     margin-top: 1.5em;
 }
 
-/*Define de que manera se muestra el formulario de contacto*/
+/* manera en que se muestra el formulario de contacto */
 
 .contact-form {
     display: flex;
     flex-direction: column;
 }
 
-/*Aplica un peso a la fuente de cada label del formulario*/
+/* peso a la fuente de cada label del formulario */
 
 .contact label {
     font-weight: 700;
 }
 
-/*Define el estilo de los inputs del formulario*/
+/* estilo de los inputs del formulario */
 
 .contact-form input, .contact-form textarea{
     padding: 1rem 2rem;
@@ -294,7 +296,7 @@ despues de un hijo directo de .contact*/
  
 :-ms-input-placeholder { color: #D7DEE6; }
 
-/*Asiga un estilo al boton*/
+/* estilo de boton */
 
 .contact-form input[type=submit] {
     margin-top: 25px;
@@ -304,6 +306,7 @@ despues de un hijo directo de .contact*/
     font-size: 1rem;
 }
 
+/* color de fondo, de fuente y define de que manera se mostrará el footer */
 
 footer{
     background-color: #0D5061;
@@ -312,16 +315,22 @@ footer{
     width: 100%;
 }
 
+/* Aplica margenes a la lista de iconos sociales en footer */
+
 footer .social-links {
     margin-top: 4px;
     margin-bottom: 0;
 }
+
+/* Aplica margen y padding superior, padding inferior a la etiqueta parrafo de footer */
 
 footer p {
     margin-top: 4px;
     padding-top: 0;
     padding-bottom: 20px;
 }
+
+/* estilo para menu */
 
 .menu {
     background-color: #112935;
@@ -331,18 +340,21 @@ footer p {
     right: 0;
     width: 100vw;
     height: calc(100vh - 60px);
-}
 
-.menu {
     list-style: none;
     text-align: left;
     padding: 1em;
 }
+
+/* manera en que se mostrará cada elemento de la lista */
+
 .menu li {
     display: block;
     padding: 0.5em;
     margin-top: 5px;
 }
+
+/* color a la fuente de los enlaces */
 
 .menu li a {
     color: white;
@@ -352,35 +364,43 @@ footer p {
 
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px) {
+    /* Ancho y margen 0 arriba y abajo para contenedores en tablets */
     .container {
         width: 100%;
         margin: 0 auto;
     }
 
+    /* padding a toda la imagen dentro del header */
     .header img {
         padding: 12px;
     }
 
+    /* Ajuste de tamaño paraa links en items del menu */
     .menu li a {
         font-size: 1rem;
     }
 
+    /* Color al hacer hover en las opciones del menu */
     .menu li a:hover {
         color: #f74442;
     }
 
+    /* Ajuste de tamaño de texto para seccion inicial */
     .big-hero p {
         font-size: 0.95rem;
     }
 
+    /* Ajuste de espacio entre texto e iconos sociales */
     .big-hero .social-links {
         margin-bottom: 30px;
     }
 
+    /* espacio entre elementoss en la lista de iconos sociales */
     .social-links li a {
         margin: auto 10px;
     }
 
+    /* Ajuste de tamaño para el icono de flecha */
     .fas {
         font-size: 3rem;
         color: #0ac693;
@@ -388,6 +408,7 @@ footer p {
         margin-bottom: 90px;
     }
 
+    /* Definicion de estilo y distribucion de elementos para la lista */
     .post ul {
         list-style: none;
         display: flex;
@@ -395,6 +416,7 @@ footer p {
         justify-content: center;
     }
     
+    /* tamaño para elementos en la lista */
     .post ul li {
         min-height: 350px;
         max-height: 3500px;
@@ -402,15 +424,18 @@ footer p {
         flex: 1 0 300px;
     }
 
+    /* tamaño para articulos */
     article {
         width: 300px;
     }
 
+    /* margen y ancho para logo */
     .logo {
         width: 150px;
         margin: 1.5em;
     }
 
+    /* cambio de display para tablets o mayores */
     .show-desktop {
         display: block;
     }
@@ -419,6 +444,7 @@ footer p {
         display: none;
     }
 
+    /* Nuevas propiedades para tablet o superior en menu */
     .menu {
         background-color: #112935; 
         position: static;
@@ -429,32 +455,39 @@ footer p {
         margin-top: 1em;
     }
 
+    /* Cambio en display al footer */
     footer {
         display: block;
     }
-
-
-    /*TODO: FALTA CSS */
 } 
 
 @media only screen and (min-width: 1024px) {
-    /*TODO: FALTA CSS */
+    /* Ancho y margen 0 arriba y abajo para contenedores en escritorio */
+
     .container {
         width: 100%;
         margin: 0 auto;
     }
 
+    /* padding izquierdo y derecho a tod el header */
+
     .header {
         padding: 0 48px;
     }
+
+    /* define el tamaño de fuente del texto de los enlaces*/
 
     .menu li a {
         font-size: 1.2rem;
     }
 
+    /* color al hacer hover en las opciones del menu */
+
     .menu li a:hover {
         color: #f74442;
     }
+
+    /* propiedades para fuente y margen de h2 de big-hero */ 
 
     .big-hero h2 {
         font-size: 2.3em;
@@ -462,20 +495,28 @@ footer p {
         margin-top: 1.5rem;
     }
 
+    /* propiedades de fuente y margen para la etiqueta parrafo de big-hero */
+
     .big-hero p {
         font-size: 1rem;
         margin-bottom: 0;
     }
+
+    /* margenes superiores e inferiores para lista de iconos sociales */
 
     .social-links {
         margin-top: 0;
         margin-bottom: 20px;
     }
 
+    /* tamaño de fuente y margen izquiero y derecho para los iconos sociales*/
+
     .fab {
         font-size: 6rem;
         margin: auto 16px;
     }
+
+    /* propiedades para icono arrow */
 
     .fas {
         font-size: 4.5rem;
@@ -483,6 +524,8 @@ footer p {
         margin-top: 0;
         margin-bottom: 90px;
     }
+
+    /* manera en que se muestra la lista de publicaciones */
 
     .post ul {
         display: flex;
@@ -492,6 +535,8 @@ footer p {
         
     }
 
+    /* valores para cada elemento de la lista */
+
     .post ul li {
         min-height: 330px;
         max-height: 3500px;
@@ -499,10 +544,14 @@ footer p {
         flex: 1 0 300px;
     }
 
+    /* propiedades para fuente para h2 de la seccion publicaciones */
+
     .post h2 {
         font-size: 1.3rem;
         font-weight: bolder;
     }
+
+    /* tamaño, margen y estilo de borde para cada articulo */
 
     article {
         width: 260px;
@@ -510,6 +559,8 @@ footer p {
         margin: auto;
         border-radius: 6px;
     }
+
+    /* valores para h3 de cada articulo */
 
     .post article h3 {
         margin-top: 0.7rem;
@@ -519,6 +570,8 @@ footer p {
         text-align: justify;
     }
 
+    /* propiedades de fuente para la etiqueta parrafo de cada articulo */
+
     .post article p {
         color: black;
         font-size: 0.7rem;
@@ -526,15 +579,20 @@ footer p {
         line-height: 18px;
     }
 
+    /* padding para centrar los elementos h3 y parrafo de los articulos */
 
     .post article h3, .post article p {
         padding-left: 20px;
         padding-right: 20px;
     }
 
+    /* margen inferior para la seccion about */
+
     .about {
         margin-bottom: 0;
     }
+
+    /* manera en que se muestan los elementos dentro del contenedor en la seccion about */
 
     .about .container {
         display: flex;
@@ -544,6 +602,8 @@ footer p {
         padding: 0 50px 40px;
     }
 
+    /* propiedades para h2 de la seccion about */
+
     .about h2 {
         width: 100%;
         font-size: 1.3rem;
@@ -551,10 +611,14 @@ footer p {
         margin-top: 0;
     }
 
+    /* tamaño y posicion que ocupara bio-info en el contenedor */
+
     .bio-info {
         width: 50%;
         align-self: flex-start;
     }
+
+    /* propiedades para el parrafo de bio-info */
 
     .bio-info p {
         margin-top: 25px;
@@ -565,24 +629,34 @@ footer p {
         letter-spacing: 0px;
     }
 
+    /* tamaño de logo blanco */
+
     .bio-info img {
         width: 180px;
     }
+
+    /* tamaño que ocupara contact en el contenedor */
 
     .contact {
         width: 50%;
         padding-left: 110px;
     }
 
+    /* tamaño de formulario */
+
     .contact-form {
         height: 85%;
         width: 100%;
     }
 
+    /* propiedades de fuente para labels de formulario */
+
     .contact-form label {
         font-size: 1rem;
         font-weight: bolder;
     }
+
+    /* propiedades para inputs y textarea de formulario */
 
     .contact-form input, .contact-form textarea {
         padding: 0.6rem 1.8rem;
@@ -590,9 +664,13 @@ footer p {
         margin-top: 16px;
     }
 
+    /* tamaño de textarea de formulario */
+
     .contact-form textarea {
         height: 150px;
     } 
+
+    /* tamaño y propiedades de fuente para texto en boton */
 
     .contact-form input[type=submit] {
         font-size: 1.2rem;
@@ -603,6 +681,8 @@ footer p {
         color: rgba(245, 245, 245, 0.712);
     }
 
+    /* propiedades para la etiqueta parrafo de footer */
+
     footer p {
         margin-top: 1rem;
         font-size: 0.9rem;
@@ -612,17 +692,20 @@ footer p {
 }
 
 @media only screen and (min-width: 1440px) {
-
-    /*TODO: FALTA CSS */
+    /* Ancho y margen 0 arriba y abajo para contenedores en escritorio */
     .container {
         width: 100%;
         margin: 0 auto;
         max-width: 1440px;
     }
 
+    /* tamaño de logo principal */
+
     .logo {
         width: 190px;
     }
+
+    /* ancho de articulos */
 
     article {
         width: 300px;
